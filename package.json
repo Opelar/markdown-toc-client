@@ -1,0 +1,23 @@
+{
+  "name": "markdown-toc-client",
+  "version": "0.0.1",
+  "description": "markdown toc client js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Opelar/markdown-toc-client.git"
+  },
+  "keywords": [
+    "markdown",
+    "toc"
+  ],
+  "author": "opelar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Opelar/markdown-toc-client/issues"
+  },
+  "homepage": "https://github.com/Opelar/markdown-toc-client#readme"
+}

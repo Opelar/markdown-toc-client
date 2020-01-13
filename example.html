@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>test doc</title>
+  <style>
+    .TOCEntry {
+      color: #666666;
+    }
+
+    .TOCEntry.TOCLevel1 {
+      padding-left: 10px;
+      font-size: 18px;
+    }
+
+    .TOCEntry.TOCLevel2 {
+      padding-left: 20px;
+      font-size: 16px;
+    }
+
+    .TOCEntry.TOCLevel3 {
+      padding-left: 30px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content">
+    <h1>h1h1h1</h1>
+    <p>pppppppppppppppppppp</p>
+    <h2>h2h2h2</h2>
+    <p>pppppppppppppppppppp</p>
+    <p>pppppppppppppppppppp</p>
+    <p>pppppppppppppppppppp</p>
+    <h3>h3h3h3</h3>
+    <p>pppppppppppppppppppp</p>
+    <p>pppppppppppppppppppp</p>
+    <h1>21313123213</h1>
+  </div>
+
+  <script src="./toc.js"></script>
+
+  <script>
+    new MarkdownToc('#content').genToc()
+  </script>
+</body>
+
+</html>
